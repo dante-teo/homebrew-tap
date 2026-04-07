@@ -2,24 +2,24 @@ cask "level5island" do
     version "1.1.2"
     sha256 "8f2d67304ef2b2232157f08308155baa14c7d4c6888cc8f12d23d9f050a0e2f0"
 
-    url "https://github.com/dante-teo/level5island/releases/download/v#{version}/CodeIsland.dmg"
-    name "CodeIsland"
+    url "https://github.com/dante-teo/level5island/releases/download/v#{version}/Level5Island.dmg"
+    name "Level5Island"
     desc "Real-time AI coding agent status panel for macOS Dynamic Island (Notch)"
     homepage "https://github.com/dante-teo/level5island"
 
     depends_on macos: ">= :sonoma"
 
-    app "CodeIsland.app"
+    app "Level5Island.app"
 
     caveats <<~EOS
-      CodeIsland is not notarized. On first launch, macOS may block it.
+      Level5Island is not notarized. On first launch, macOS may block it.
       To allow it, run:
-        xattr -cr /Applications/CodeIsland.app
+        xattr -cr /Applications/Level5Island.app
       Or go to System Settings > Privacy & Security > Open Anyway.
     EOS
 
     zap trash: [
-      "~/Library/Preferences/com.codeisland.app.plist",
-      "~/Library/Application Support/CodeIsland",
+      "~/Library/Preferences/com.level5island.app.plist",
+      "~/Library/Application Support/Level5Island",
     ]
   end
