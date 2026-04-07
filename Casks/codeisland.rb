@@ -1,4 +1,4 @@
-cask "codeisland" do
+cask "level5island" do
     version "1.0.8"
     sha256 "0ff9617fa19c868e056a17fdf8a97ae8088ea8e686db071295acba7e0db7a0fd"
 
