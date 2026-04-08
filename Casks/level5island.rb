@@ -1,6 +1,6 @@
 cask "level5island" do
-    version "1.1.4"
-    sha256 "19f418fe272c2c090102969fb2b2ea486117ba40cebe7d50b770e51b7a85b2a1"
+    version "1.2.0"
+    sha256 "60450c942772b12eea19c410c0c53496ecd60045769a4ef9ba5b656dde24c24f"
 
     url "https://github.com/dante-teo/level5island/releases/download/v#{version}/Level5Island.dmg"
     name "Level5Island"
