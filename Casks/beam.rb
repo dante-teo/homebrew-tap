@@ -1,6 +1,6 @@
 cask "beam" do
-  version "1.2.0"
-  sha256 "0ff00287bcca4fab52b8ece7828f4ebf307261f042e7510dbae2bc833ff3f8bd"
+  version "1.2.1"
+  sha256 "a2db551b930c2202b599949c34b8f0b53e22fe709f56e53b37a484eca444741d"
 
   url "https://github.com/dante-teo/beam/releases/download/v#{version}/Beam-#{version}.zip"
   name "Beam"
