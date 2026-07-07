@@ -1,8 +1,8 @@
 cask "level5-build" do
-  version "2.0.0"
-  sha256 "b8ae814d0c2dcd128413ed08fe25063deaf85a61a9edbbf5f1dac8d925b6f461"
+  version "2.1.0"
+  sha256 "7579b833095031f86eb70c25bc34d1fe0a68cc5f6d4eed93120d2db78e2e9a0f"
 
-  url "https://github.com/dante-teo/level-5-build/releases/download/v#{version}/Level5-Build-v2.0.0-macos-arm64.dmg"
+  url "https://github.com/dante-teo/level-5-build/releases/download/v#{version}/Level5-Build-v2.1.0-macos-arm64.dmg"
   name "Level5 Build"
   desc "Open-source desktop app for AI coding workflows"
   homepage "https://github.com/dante-teo/level-5-build"
