@@ -1,9 +1,9 @@
 cask "railgun" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "360da0859c383ab3045c11615ebbb9e2b5ca9ee2693806967200a2946f1db48c",
-         intel: "dc8e08647505fa4b00c213c56e122b67a4c58a0c00db45e04c2f716e8491acf5"
+  version "0.3.1"
+  sha256 arm:   "f41409cfa188fae7e9a085e484410b429b42f38f2b899487319f2d9306305198",
+         intel: "24a37acf36a16ce02fd0ff0ca0dff24e5ff30cb36a7f42e05513042a9b5a0aad"
 
   url "https://github.com/dante-teo/railgun/releases/download/v#{version}/Railgun-#{version}-#{arch}.zip"
   name "Railgun"
