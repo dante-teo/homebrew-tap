@@ -1,11 +1,11 @@
 cask "railgun" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.3"
-  sha256 arm:   "cf07b7a57efa005950b3ce031673f15b544fe62d38ecacbb67ae0a5502c9e9f5",
-         intel: "6dcab824f0bc55d5f71038bd04bcd672dd894c6c6b8086084a3b098c07cb17ab"
+  version "0.4.0"
+  sha256 arm:   "0c8e713cec049d267f28aac47cadacb2fa92dd5f515f5abc47c7d5f7733b3818",
+         intel: "bcca070e2bfb967ccd85a1e971bedd58959f39c3d79ba231fad2383c7914fc98"
 
-  url "https://github.com/dante-teo/railgun/releases/download/v#{version}/Railgun-#{version}-#{arch}.zip"
+  url "https://github.com/dante-teo/railgun/releases/download/v#{version}/Railgun-homebrew-#{version}-darwin-#{arch}.zip"
   name "Railgun"
   desc "AI coding agent for local development workflows"
   homepage "https://github.com/dante-teo/railgun"
