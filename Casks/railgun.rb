@@ -1,9 +1,9 @@
 cask "railgun" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.4.2"
-  sha256 arm:   "6f29582da805c9a42948e77811b4f3ed70ede6e38aebfdc1b332018a8b1efeaf",
-         intel: "ef263ff55250a117cb504e450d731354fa599fbb8887c53ba09c94b70d5ca1c6"
+  version "0.4.3"
+  sha256 arm:   "640ae86b83b40e09a106f5d15793c8e48d45cb80c77a092450e9b2e5107abebf",
+         intel: "968b65f4402a57541dd5cfdc79a2724c5d6a5efdf5f44e0d9dfcffafefc26f6c"
 
   url "https://github.com/dante-teo/railgun/releases/download/v#{version}/Railgun-homebrew-#{version}-darwin-#{arch}.zip"
   name "Railgun"
