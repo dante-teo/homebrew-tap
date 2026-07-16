@@ -10,7 +10,7 @@ cask "railgun" do
   desc "AI coding agent for local development workflows"
   homepage "https://github.com/dante-teo/railgun"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Railgun.app"
 

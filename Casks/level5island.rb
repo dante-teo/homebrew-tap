@@ -7,7 +7,7 @@ cask "level5island" do
     desc "Real-time AI coding agent status panel for macOS Dynamic Island (Notch)"
     homepage "https://github.com/dante-teo/level5island"
 
-    depends_on macos: ">= :sonoma"
+    depends_on macos: :sonoma
 
     app "Level5Island.app"
 
