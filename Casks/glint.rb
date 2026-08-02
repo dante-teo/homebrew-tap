@@ -1,6 +1,6 @@
 cask "glint" do
-  version "1.8.1"
-  sha256 "e35cc57ac90765e67c08c92844ef2efd9ef6ae3519019bc0c24d6c69d50e04f5"
+  version "1.9.0"
+  sha256 "591c7c6adaee82cb7e6eae52875d79eae3add6fae3950ba9945884055cfec8ff"
 
   url "https://github.com/dante-teo/glint/releases/download/v#{version}/Glint-#{version}.dmg"
   name "Glint"
@@ -9,7 +9,7 @@ cask "glint" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: ">= :sonoma"
 
   app "Glint.app"
 
