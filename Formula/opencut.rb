@@ -1,9 +1,9 @@
 class Opencut < Formula
   desc "Local video-as-code renderer"
   homepage "https://github.com/dante-teo/opencut"
-  url "https://github.com/dante-teo/opencut/releases/download/v0.1.3/opencut-cli-0.1.3-macos-arm64.tgz"
-  sha256 "d8a99b8b2ff06b8778cd037e1105e8d335c1d315adcff7fa74f51923b00db7af"
-  version "0.1.3"
+  url "https://github.com/dante-teo/opencut/releases/download/v0.2.0/opencut-cli-0.2.0-macos-arm64.tgz"
+  sha256 "19f7c8bebc599db49352ca80a6e6a61df57aaced267e4721b05882e5ac9b67a0"
+  version "0.2.0"
   license "MIT"
 
   depends_on "ffmpeg"
