@@ -1,9 +1,9 @@
 class Opencut < Formula
   desc "Local video-as-code renderer"
   homepage "https://github.com/dante-teo/opencut"
-  url "https://github.com/dante-teo/opencut/releases/download/v0.17.0/opencut-cli-0.17.0-macos-arm64.tgz"
-  sha256 "6c65f76b9069179dc83c5d4e6dd4a992fb2f9fa86efeb6abef0666c4011755c9"
-  version "0.17.0"
+  url "https://github.com/dante-teo/opencut/releases/download/v0.18.0/opencut-cli-0.18.0-macos-arm64.tgz"
+  sha256 "b244a74c79c4ea64482608004a198dfcd826d75ee8ae2fa59d6896113d8af92a"
+  version "0.18.0"
   license "MIT"
 
   depends_on "ffmpeg"
@@ -24,6 +24,7 @@ class Opencut < Formula
     assert_equal version.to_s, shell_output("#{bin}/opencut --version").strip
     doctor = JSON.parse(shell_output("#{bin}/opencut doctor --json"))
     assert doctor.fetch("media").fetch("ready")
+    assert_equal "available", doctor.dig("media", "engine", "status")
     assert_equal "available", doctor.dig("ai", "videoToolbox", "workers", "interpolation", "status")
   end
 end
